@@ -11,7 +11,7 @@ def add_text_to_bubble(draw, box, text, font_path="arial.ttf"):
     
     # Estimate font size based on bubble height
     # Start with a reasonable size and adjust if needed
-    font_size = int(h / 6)  # Initial guess
+    font_size = 16  # Initial guess
     min_font_size = 12  # Don't go smaller than this
     
     font = None
